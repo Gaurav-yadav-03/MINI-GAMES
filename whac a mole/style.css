@@ -1,0 +1,105 @@
+*{
+    margin: 0;padding: 0; box-sizing: border-box;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 90deg, #deddce, #6e5446);
+}
+.page1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.back {
+    margin-right: 30px;
+}
+.back button{
+    width: 100px;
+    height: 40px;
+}
+
+.grid{
+    width:50%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.square{
+    flex: 33.33%;
+    width: 200px;
+    height: 170px;
+    border: 2px solid black;
+    cursor:pointer;
+}
+.mole{
+   background-image: url(./images.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.point{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    padding: 10px 0px;
+    margin-left:125px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    padding-bottom: 20px;
+}
+button{
+    margin-top: 15px;
+    width: 60px;
+    height: 30px;
+    background:rgb(61, 61, 61);
+    color: rgb(45, 239, 94);
+    font-size: 1rem;
+    border: none;
+}
+
+@media (max-width: 700px){
+    .point{
+        font-size: 4vw;
+        padding: 10px 0px;
+        margin-left:75px;
+    }
+    .back {
+        margin-right: 20px;
+    }
+    .back button{
+        width: 50px;
+        height: 20px;
+        font-size: 2.5vw;
+    }
+    .time{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3vw;
+        padding-bottom: 20px;
+    }
+    .grid{
+        width:90%;
+        margin-left:5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .square{
+        flex: 33.33%;
+        height: 120px;
+    }
+    
+}

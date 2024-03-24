@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color:#8fcfad;
+}
+.back a{
+ text-decoration: none;
+}
+.back button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #3a7254;
+    color: white;
+    border: none;
+}
+.panel{
+    width: 80%;
+    overflow: hidden;
+    height:83%;
+    border-radius:10px;
+}
+.ptop{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30%;
+    width: 100%;
+    height: 100px;
+    color: aliceblue;
+    background-color: #3a7254;
+}
+.elem{
+display: flex;
+align-items: center;
+gap:20px;
+}
+.elem h2{
+    font-size:18px;
+    font-weight: 400;
+}
+.box{
+   border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: aliceblue;
+    color:  #3a7254;
+}
+.pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    font-size: 3vw;
+    color: #184a2f;
+width: 100%;
+height:calc(100% - 100px);
+background-color: #cbdfd6;
+gap: 7px;
+}
+.pbtm #hey{
+    background-color: #3a7254;
+}
+.bubble{
+    display: flex;align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #3a7254;
+    border-radius: 50%;
+ 
+}
+.bubble:hover{
+    background-color: #274433;
+}
+
+@media(max-width:768px) {
+    .panel{
+        width: 80%;
+        overflow: hidden;
+        height:86%;
+        border-radius:10px;
+    }
+    .ptop{
+        gap: 5px;
+        flex-direction: column;
+        width: 100%;
+        height: 120px;
+    }
+    .elem h2{
+        font-size:15px;
+    }
+    
+    .box{
+        border-radius: 5px;
+         padding: 5px 10px;
+         font-size: 12px;
+         background-color: aliceblue;
+         color:  #3a7254;
+     }
+     .pbtm{
+    gap: 9px;
+    padding-top: 10px;
+    }
+    .bubble{
+        font-size: 10px;
+        width: 25px;
+        height: 25px;
+        background-color: #3a7254;
+        border-radius: 50%;
+     
+    }
+}

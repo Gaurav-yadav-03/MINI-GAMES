@@ -1,0 +1,94 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+}
+.main{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.game{
+display: flex;
+flex-wrap: wrap;
+width: 300px;
+
+
+}
+.back{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 30px;
+}
+.back button{
+    width: 100px;
+    height: 30px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(26, 25, 25);
+    border: none;
+}
+.game button{
+    flex:33.33%;
+    height: 100px;
+    border: none;
+    
+    box-sizing: border-box;
+    outline: none;
+    font-size: 5vw;
+    font-weight:500;
+    color: brown;
+   
+    background-color: #FFFFFF
+}
+#bye{
+    border-bottom:5px solid black;
+    border-right: 5px solid black;
+}
+#bye1{
+    border-bottom: 5px solid black;
+}
+#bye2{
+    border-right: 5px solid black;
+}
+.reset{
+    margin-top: 50px;
+}
+.reset button{
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    text-transform:capitalize;
+    background-color: black;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   height: 80vmin;
+}
+.container p{
+    font-size:2rem;
+    text-transform: uppercase;
+
+}
+.container button{
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    text-transform:capitalize;
+    background-color: black;
+    color: aliceblue;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+   background: linear-gradient(#faffff,#9feaec,#2cbdcf);
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text h1{
+    font-size:30px;
+    color: #333033;
+    padding: 20px;
+}
+.text h2{
+    font-size:30px;
+    color: #444244;
+}
+.box{
+    width: 100%;height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box a{
+    text-decoration: none;
+    text-align: center;
+}
+.box1{
+    width: 27vw;
+    height: 53vh;
+    display: flex;
+    align-items:center;
+    padding-top:15px ;
+    justify-content:start;
+    background-color:#41a2a0e9;
+    flex-direction: column;
+}
+.box1 h1{
+    padding-top: 10px;
+    color: rgb(61, 24, 71);
+    font-size: 1.7rem;
+}
+ .box1 button{
+   width: 25vw;
+   height: 42vh;
+   background-image: url(./images/tic-tac-toe-.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: none;
+}
+.box2{
+    width: 27vw;
+    height: 53vh;
+    display: flex;
+    align-items:center;
+    padding-top:15px ;
+    justify-content:start;
+    background-color:#41a2a0e9;
+    flex-direction: column;
+}
+.box2 h1{
+    padding-top: 10px;
+    color: rgb(61, 24, 71);
+    font-size: 1.7rem;
+}
+.box2 button{
+    width:25vw;
+    height: 42vh;
+    background-image: url(./images/unnamed.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+.box3{
+    width: 27vw;
+    height: 53vh;
+    display: flex;
+    align-items:center;
+    padding-top:15px ;
+    justify-content:start;
+    background-color:#41a2a0e9;
+    flex-direction: column;
+}
+.box3 button{
+    width: 25vw;
+    height: 42vh;
+    background-image: url(./images/whack-a-mole.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+.box3 h1{
+    padding-top: 10px;
+    color: rgb(61, 24, 71);
+    font-size: 1.7vw;
+}
+
+@media (max-width: 700px){
+    html,body{
+       background: linear-gradient(90deg,#faffff,#9feaec,#2cbdcf);
+    }
+    .text h1{
+        font-size:8vw;
+        color: #333033;
+        padding: 20px;
+    }
+    .text h2{
+        font-size:6vw;
+        color: #444244;
+    }
+    .box{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
+      
+        justify-content: space-around;
+    }
+    .box1{
+        width: 60vw;
+        height: 40vh;
+        display: flex;
+        align-items:center;
+        padding-top:15px ;
+        justify-content:start;
+        background-color:#41a2a0e9;
+    }
+    .box1 h1{
+        padding-top: 1px;
+        color: rgb(61, 24, 71);
+        font-size: 1rem;
+    }
+     .box1 button{
+       width: 50vw;
+       height: 30vh;
+       background-image: url(./images/tic-tac-toe-.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       border: none;
+    }
+    .box2{
+        width: 60vw;
+        height: 40vh;
+        display: flex;
+        align-items:center;
+        padding-top:15px ;
+        justify-content:start;
+        background-color:#41a2a0e9;
+        flex-direction: column;
+    }
+    .box2 h1{
+        padding-top: 10px;
+        color: rgb(61, 24, 71);
+        font-size: 1rem;
+    }
+    .box2 button{
+        width:50vw;
+        height: 30vh;
+        background-image: url(./images/unnamed.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+    }
+    .box3{
+        width: 60vw;
+        height: 40vh;
+        display: flex;
+        align-items:center;
+        padding-top:15px ;
+        justify-content:start;
+        background-color:#41a2a0e9;
+        flex-direction: column;
+        
+    }
+    .box3 button{
+        width: 50vw;
+        height: 30vh;
+        background-image: url(./images/whack-a-mole.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+    }
+    .box3 h1{
+        padding-top: 10px;
+        color: rgb(61, 24, 71);
+        font-size: 1rem;
+    }
+    
+}
